@@ -1,0 +1,1 @@
+{"ts":1372107516905,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"'use strict';\n\nangular.module('538134App')\n  .controller('ServicesCtrl', function ($scope) {\n    $scope.awesomeThings = [\n      'HTML5 Boilerplate',\n      'AngularJS',\n      'Karma'\n    ];\n  });\n"]],"start1":0,"start2":0,"length1":0,"length2":195}]],"length":195}
