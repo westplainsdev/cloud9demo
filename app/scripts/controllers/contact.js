@@ -2,9 +2,5 @@
 
 angular.module('538134App')
   .controller('ContactCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+    $scope.contactInfo = "You can contact us from here.";
   });
