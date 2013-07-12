@@ -1,1 +1,27 @@
 <h3 data-ng-bind="servicesInfo"></h3>
+<p>On this page are a couple of examples of the 
+<a href="http://angular-ui.github.io/bootstrap/">AngularJS UI project</a>. As you can see we've added 
+tooltips, menu dropdowns and collapsible areas to this page. You can easily add more items which can be
+found on the projects home page.</p>
+<p>
+    <a href="#"><span tooltip-placement="right" tooltip="Tooltip On the Right!">Hyperlink with tooltip</span></a> 
+</p>
+
+<ul>  
+    <li class="dropdown">
+        <a class="dropdown-toggle">Click me for a dropdown, yo!</a>
+        <ul class="dropdown-menu">
+            <li ng-repeat="choice in items">
+                <a>{{choice}}</a>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<p><button class="btn" ng-click="isCollapsed = !isCollapsed">Toggle collapse</button></p>
+<hr style="margin: 5px;;" />
+<div collapse="isCollapsed">
+	<div class="well well-large">Some content</div> 
+</div>
+    
+

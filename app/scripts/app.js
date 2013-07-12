@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('538134App', [])
+angular.module('538134App',  ['ui.bootstrap'])
   .config(function ($routeProvider) {
     $routeProvider.when('/', { templateUrl: 'views/main.html', controller: 'MainCtrl' });
     $routeProvider.when('/about', { templateUrl: 'views/about.html', controller: 'AboutCtrl' });
